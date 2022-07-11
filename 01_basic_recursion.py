@@ -7,7 +7,7 @@
 # The stack is a data structure that is modeled according to the last-in-first-out (LIFO) principle.
 
 def use_recursive_function(int_number):
-    # first if-condition is to only to show the 'going-into-stack' process.
+    # first if-condition is only to show the 'going-into-stack' process.
     if int_number > 0: print(int_number, ' -> going into stack...')
     # Base case / recursion scenario:
     if int_number == 0:
