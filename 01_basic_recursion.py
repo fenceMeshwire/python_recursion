@@ -9,11 +9,12 @@
 def use_recursive_function(int_number):
     # first if-condition is only to show the 'going-into-stack' process.
     if int_number > 0: print(int_number, ' -> going into stack...')
-    # Base case / recursion scenario:
+    # Last step / stopping condition:
     if int_number == 0:
         print(int_number, ' Base case.')
         return
     else:
+        # Repeating step / working condition:
         use_recursive_function(int_number - 1)
         print(int_number, ' -> ...returning from stack')
         return
