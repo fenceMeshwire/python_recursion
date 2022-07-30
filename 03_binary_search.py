@@ -5,7 +5,7 @@
 # 03_binary_search.py
 
 def binary_search(item, inventory, left=None, right=None):
-    # By default, 'left' and 'right' are the lower and upper boundary of'inventory'
+    # By default 'left' and 'right' are the lower and upper boundary of'inventory'
     if left is None:
         left = 0 # 'left' defaults to the 0 index
     if right is None:
