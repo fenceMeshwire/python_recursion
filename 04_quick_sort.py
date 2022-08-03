@@ -4,8 +4,9 @@
 
 # 04_quick_sort.py
 
-# to_be_sorted = [8, 7, 6, 3, 1, 2, 5, 4, 9, 10, 11, 0]
-# indices_tbs =  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+# Initial situation:
+# to_be_sorted = [8, 7, 6, 3, 1, 2, 5, 4, 9, ...]
+# indices_tbs =  [0, 1, 2, 3, 4, 5, 6, 7, 8, ...]
 
 def quick_sort(items, left=None, right=None):
     # Describe the lower and upper boundaries
