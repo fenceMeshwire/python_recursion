@@ -3,7 +3,6 @@
 <p>General observations:</p>
 <ul>
 <li>A recursive function is a function which calls itself.</li>
-<li>...</li>
 <li>A function contains code which runs when the function is called.</li>
 <li>Zero or more arguments can be passed as input to a function.</li>
 <li>The functions output is called return value. The return value can also be None in Python.</li>
