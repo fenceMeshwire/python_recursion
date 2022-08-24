@@ -1,5 +1,6 @@
 <h4>python_recursion</h4>
 <p>Understanding concepts and use of recursion in Python3.</p>
+<p>General observations:</p>
 <ul>
 <li>A recursive function is a function which calls itself.</li>
 <li>A function contains code which runs when the function is called.</li>
